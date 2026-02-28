@@ -176,6 +176,8 @@ async function run() {
 
     if (watchMode) {
         process.stdout.write(`\n模式: 實時監控 (WATCH)... 正在監聽: ${logPath}\n`);
+    } else if (sinceStr) {
+        process.stdout.write(`\n模式: 時間過濾 (最近 ${sinceStr})\n`);
     } else {
         process.stdout.write(`\n模式: ${limit ? `歷史快照 (最近 ${limit} 筆)` : '全量掃描 (今日)'}\n`);
     }
