@@ -1,0 +1,24 @@
+{
+  "name": "oc-trace",
+  "version": "0.1.0",
+  "description": "OpenClaw 效能追蹤與實時監控工具 (oc-trace)",
+  "main": "oc-trace.js",
+  "bin": {
+    "oc-trace": "./oc-trace.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openclaw",
+    "trace",
+    "performance",
+    "monitor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fkjs000/oc-trace.git"
+  }
+}
